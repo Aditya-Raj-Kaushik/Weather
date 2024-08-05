@@ -1,12 +1,11 @@
 
-import React from 'react'
-
+import TopButtons  from "./components/TopButtons/TopButtons/TopButtons";
 const App = () => {
   return (
-    <div>
-      
+    <div >
+      <TopButtons />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
