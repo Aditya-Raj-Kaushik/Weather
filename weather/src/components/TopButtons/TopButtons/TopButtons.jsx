@@ -1,6 +1,7 @@
 import React from 'react';
 import Inputs from './inputs'; // Make sure your component name starts with an uppercase letter
 import "./index.css"; // Import the CSS file
+import TimeandLocation from './TimeandLocation';
 
 const TopButtons = () => {
   const cities = [
@@ -22,7 +23,9 @@ const TopButtons = () => {
       </div>
       <div className="input-row">
         <Inputs />
+        
       </div>
+      <TimeandLocation />
     </div>
   );
 };
